@@ -1,0 +1,270 @@
+body.bg-svg {
+    font-family: "Noto Sans Japanese", "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, sans-serif;
+    background-image: url(../image/Large-Triangles.svg);
+}
+
+.top-title{
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(251, 255, 0);
+    margin-top: 30px;
+}
+
+.top-title img {
+    width: 100%;
+}
+
+ul li {
+    list-style: none;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #6F6F6F;
+    background: rgba(255, 255, 255, 0.8);
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: 'RocknRoll One', sans-serif;
+    
+}
+
+.btn:hover{
+    transition: 0.5s ;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.top-menu{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.top-menu ul li :first-child{
+    margin-bottom: 30px;
+}
+
+/* フォーム */
+.form{
+    width: 300px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    color: #6F6F6F;
+}
+
+select{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    color: #6F6F6F;
+}
+
+textarea{
+    width: 100%;
+    height: 80px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    color: #6F6F6F;
+}
+
+.form-text{
+    padding-bottom: 6px;
+    color: rgb(251, 255, 0);
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 17px;
+}
+
+.confirm-text{
+    display: inline-block;
+    margin-top: 2px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    color: #fff;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.form-btn{
+    margin-top: 10px;
+}
+
+.err-msg{
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    padding: 8px;
+    font-weight: 400;
+    background: rgb(255, 49, 176, 0.9);
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/* ジャンル選択 */
+.select-title h1{
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(251, 255, 0);
+    margin-top: 30px;
+}
+
+.select-menu{
+    margin-top: 120px;
+}
+
+.select-menu ul li input{
+    margin-bottom: 50px;
+    background: rgba(251, 255, 0, 0.8);
+}
+
+/* スタート画面 */
+
+.start-title h1{
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.start-menu{
+    margin: 120px auto 0 auto;
+    width: 300px;
+}
+
+.start-menu ul li .btn{
+    margin-bottom: 30px;
+}
+
+.start-menu ul li .go-btn{
+    height: 130px;
+    line-height: 130px;
+    margin-bottom: 80px;
+    font-size: 40px;
+    background: rgba(251, 255, 0, 0.8);
+}
+
+/* クイズ画面 */
+
+.quiz-area{
+    width: 350px;
+    margin: 30px auto 0 auto;
+}
+
+.quiz-area h1{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.quiz-area textarea{
+    height: 120px;
+    color: #6F6F6F;
+}
+
+.quiz-menu{
+    width: 350px;
+    margin: 0 auto 0 auto;
+    position: relative;
+}
+
+.quiz-menu img{
+    width: 100%;
+    position: absolute;
+    top: -20px;
+}
+
+.quiz-menu .answer-menu{
+    position: absolute;
+    top: 300px;
+}
+.radio-btn{
+    display: none;
+}
+
+.radio-label{
+    display: inline-block;
+    text-decoration: none;
+    color: #6F6F6F;
+    background: rgba(255, 255, 255, 0.8);
+    width: 350px;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    color: #6F6F6F;
+    font-family: Noto Sans Japanese;
+    font-size: 16px;
+    padding-left: 7px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.radio-label:hover{
+    cursor: pointer;
+}
+
+.radio-btn:checked + .radio-label{
+    background-color: pink;
+}
+
+.quiz-menu .answer-menu .submit-btn{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quiz-menu .answer-menu .btn:first-child{
+    background: rgba(251, 255, 0, 0.8);
+}
+
+.quiz-menu .answer-menu .btn{
+    width: 160px;
+}
+
+
+/*  回答後の画面 */
+.msg-area{
+    width: 300px;
+    height: 200px;
+    line-height: 200px;
+    margin: 200px auto 0 auto;
+    background: rgba(251, 255, 0, 0.8);
+    color: #6F6F6F;
+    
+}
+
+.msg-area .judge-msg{
+    font-size: 30px;
+    font-family: 'RocknRoll One', sans-serif;
+    text-align: center;
+}
+
+.btn-area{
+    width: 300px;
+    margin: 30px auto 0 auto;
+}
